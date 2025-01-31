@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0d192c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.box1 {
+  width: 350px;
+  height: 596px;
+  border-radius: 15px;
+  background: var(--very-dark-blue-card-bg, #15263f);
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.photobox {
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  margin: 30px;
+}
+
+h2 {
+  width: 302px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+p {
+  width: 302px;
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.textdiv {
+  padding: 10px;
+}
+
+#ETH {
+  color: var(--Cyan, #00fff8);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.icondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+}
+
+#days {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.GG {
+  width: 302px;
+  height: 1px;
+  background: var(--very-dark-blue-line, #2e405a);
+}
+
+h5 {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+.icon2Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
